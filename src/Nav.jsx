@@ -38,7 +38,7 @@ const Na = styled.div`
     height:15vh;
     div:first-child{ //Razorpaylogo
       cursor:pointer;
-      margin-left:3vw;
+      /* margin-left:3vw; */
         img{
             width:130px;
         }
@@ -51,6 +51,7 @@ const Na = styled.div`
       /* background-color: #5399EE; */
       color: white;
       width:45%;
+      font-size:16px;
       P{
        
       }
