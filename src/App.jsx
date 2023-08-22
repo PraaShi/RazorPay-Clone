@@ -1,5 +1,6 @@
-import Header from "./Header"
-import NavIntro from "./NavIntro"
+import Header from "./Components/Header"
+import NavIntro from "./Components/NavIntro"
+import Page1 from "./Components/Page1"
 
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
       <Header/>
       <>
         <NavIntro />
+        <Page1 />
       </>
     </>
   )
