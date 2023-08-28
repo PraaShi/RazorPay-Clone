@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import Pg1_1 from './Pg1_1';
+import Features from './Features';
 
 export default function Page1() {
   return (
@@ -10,6 +11,7 @@ export default function Page1() {
             <div></div>
         </One>
         <Pg1_1 />
+        <Features />
     </Mai>
   )
 }
