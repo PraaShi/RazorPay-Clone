@@ -49,9 +49,9 @@ const Na = styled.div`
       justify-content: space-between;
       margin-left:3vw;
       /* background-color: #5399EE; */
-      color: white;
-      width:45%;
-      font-size:16px;
+      color:#D9D9DE;
+      width:47%;
+      font-size:17px;
       P{
        
       }
@@ -89,9 +89,8 @@ const Na = styled.div`
     div:last-child{ //signup
       margin-left:1vw;
         button{
-            font-weight: 500;
             color:#5399EE;
-            font-weight: 600;
+            font-weight: 700;
             padding:0.9em 2em;
             display: flex;
             justify-content: center;

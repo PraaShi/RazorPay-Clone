@@ -49,7 +49,7 @@ margin-top: 14vh;
 position:relative;
   > p:nth-child(1){
     font-size:29px;
-    font-weight: 500;
+    font-weight: 600;
     width:56%;
     > span{
       color:#2A90EE;
@@ -57,30 +57,31 @@ position:relative;
   }
   > div:nth-child(3){
     display: flex;
-    width:280px;
+    width:285px;
     justify-content:space-between;
     align-items: center;
-    > button{
+    /* background-color: #E3E2E3; */
+    > button{ //sign up now
         background-color:#2B85EB;
         color:white;
         border:none;
         padding:15px 5px;
-        width:155px;
+        width:158px;
         border-radius: 5px;
-        font-size: 15px;
+        font-size: 16px;
         font-weight: 550;
         display: flex;
         justify-content: center;
         align-items: center;
         gap:6px;
         > img{
-          width:14px;
+          width:16px;
         }
       }
-    > p{
+    > p{ //know more
       color: #0A72E6;
       font-size:16.5px;
-      font-weight:500;
+      font-weight:600;
       display: flex;
       /* background-color: #40f18a; */
       justify-content:center;

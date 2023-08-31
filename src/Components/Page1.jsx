@@ -2,6 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import Pg1_1 from './Pg1_1';
 import Features from './Features';
+import Note from './Note';
 
 export default function Page1() {
   return (
@@ -12,6 +13,7 @@ export default function Page1() {
         </One>
         <Pg1_1 />
         <Features />
+        <Note />
     </Mai>
   )
 }
@@ -25,7 +27,7 @@ const One = styled.div`
     > p{
         font-weight:650;
         /* display: none; */
-        font-size: 25px;
+        font-size: 26px;
         color:#02042A;
     }
     > div{
@@ -37,5 +39,7 @@ const One = styled.div`
 
 const Mai = styled.div`
     width:100%;
-    /* clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 78%); */
+    /* clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 90%); */
+    height:230vh;
+    /* background-color: antiquewhite; */
 `;

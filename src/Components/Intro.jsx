@@ -32,7 +32,7 @@ const Int = styled.div`
 
 
 const Rig = styled.div`
-  width:61%;
+  width:62%;
   img{
       width:100%;
     }
@@ -41,7 +41,7 @@ const Rig = styled.div`
 `;
 
 const Lef = styled.div`
-  width:39%;
+  width:38%;
   background-color:#04032D;
   display:flex;
   flex-direction: column;
@@ -59,9 +59,10 @@ const Lef = styled.div`
       color:#B1B0BD;
       font-weight: 400;
   }
-  > p:nth-child(1){
-    font-weight: 650;
+  > p:nth-child(1){ //power
+    font-weight: 700;
     font-size: 39px;
+    line-height: 50px;;
   }
   > button{
       background-color:#2B85EB;
@@ -70,7 +71,7 @@ const Lef = styled.div`
       padding:15px 5px;
       width:155px;
       border-radius: 5px;
-      font-size: 15px;
+      font-size: 17px;
       font-weight: 550;
       display: flex;
       justify-content: center;
